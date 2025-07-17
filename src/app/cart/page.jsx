@@ -13,6 +13,12 @@ export default function CartPage() {
       return;
     }
 
+    // Ask for confirmation
+    const confirm = window.confirm(
+      "Are you sure you want to place this order?"
+    );
+    if (!confirm) return;
+
     // Example summary string
     const orderSummary = cart
       .map((item) => `${item.name} × ${item.qty}`)
