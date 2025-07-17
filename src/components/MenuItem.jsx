@@ -18,7 +18,7 @@ export default function MenuItem({ id, name, price }) {
       </div>
       <button
         onClick={handleAdd}
-        className="text-2xl px-3 py-1 bg-green-600 text-white rounded shadow"
+        className="text-2xl px-3 py-1 bg-black text-white font-bold rounded shadow"
       >
         🛒
       </button>
