@@ -1,24 +1,30 @@
 {
-  "timestamp": "2025-07-19T07:10:03.274Z",
+  "timestamp": "2025-07-19T16:03:10.215Z",
   "table": "2",
   "total": 220,
   "items": [
     {
-      "id": "b1",
-      "name": "Veg Patty Burger",
-      "price": 80,
-      "qty": 1
-    },
-    {
-      "id": "b5",
-      "name": "Strips Burger",
-      "price": 100,
-      "qty": 1
-    },
-    {
       "id": "r1",
       "name": "Chicken Roll",
       "price": 40,
+      "qty": 1
+    },
+    {
+      "id": "r2",
+      "name": "Chicken Roll W/C",
+      "price": 60,
+      "qty": 1
+    },
+    {
+      "id": "r3",
+      "name": "Veg Roll W/C",
+      "price": 60,
+      "qty": 1
+    },
+    {
+      "id": "r4",
+      "name": "BBQ Chicken Roll",
+      "price": 60,
       "qty": 1
     }
   ]

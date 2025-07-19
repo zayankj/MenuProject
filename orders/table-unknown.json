@@ -1,7 +1,7 @@
 {
-  "timestamp": "2025-07-19T06:49:32.135Z",
+  "timestamp": "2025-07-19T10:35:56.095Z",
   "table": "unknown",
-  "total": 260,
+  "total": 310,
   "items": [
     {
       "id": "b1",
@@ -10,15 +10,21 @@
       "qty": 1
     },
     {
-      "id": "b2",
-      "name": "Broasted Burger",
-      "price": 80,
+      "id": "r6",
+      "name": "Schezwan Chicken Roll",
+      "price": 90,
       "qty": 1
     },
     {
-      "id": "b3",
-      "name": "Broasted Burger with Cheese",
-      "price": 100,
+      "id": "m2",
+      "name": "Shamam",
+      "price": 60,
+      "qty": 1
+    },
+    {
+      "id": "w2",
+      "name": "Fruit Ice Cream",
+      "price": 80,
       "qty": 1
     }
   ]

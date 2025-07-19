@@ -1,7 +1,8 @@
-import { writeFile, mkdir } from "fs/promises";
+import { writeFile, readFile, mkdir, access } from "fs/promises";
 import path from "path";
 import { NextResponse } from "next/server";
 
+// POST method to save a new order
 export async function POST(request) {
   try {
     const data = await request.json();
@@ -14,30 +15,52 @@ export async function POST(request) {
       );
     }
 
-    // Folder to store orders
     const ordersDir = path.join(process.cwd(), "orders");
+    const filePath = path.join(ordersDir, "orders.json");
 
-    // Make sure the directory exists
     await mkdir(ordersDir, { recursive: true });
 
-    // File path: e.g., orders/table-1.json
-    const filePath = path.join(ordersDir, `table-${table}.json`);
+    let existingOrders = [];
+    try {
+      await access(filePath);
+      const content = await readFile(filePath, "utf-8");
+      existingOrders = JSON.parse(content);
+    } catch (err) {
+      existingOrders = [];
+    }
 
-    // Order data to save
-    const orderData = {
+    const newOrder = {
       timestamp: new Date().toISOString(),
       table,
       total,
       items,
     };
+    existingOrders.push(newOrder);
 
-    // Save order as JSON
-    await writeFile(filePath, JSON.stringify(orderData, null, 2));
+    await writeFile(filePath, JSON.stringify(existingOrders, null, 2));
 
     return NextResponse.json({ success: true, message: "Order saved!" });
   } catch (err) {
     return NextResponse.json(
       { error: "Server error", details: err.message },
+      { status: 500 }
+    );
+  }
+}
+
+// DELETE method to clear all orders
+export async function DELETE() {
+  try {
+    const ordersDir = path.join(process.cwd(), "orders");
+    const filePath = path.join(ordersDir, "orders.json");
+
+    // Overwrite the file with an empty array
+    await writeFile(filePath, JSON.stringify([], null, 2));
+
+    return NextResponse.json({ success: true, message: "All orders cleared!" });
+  } catch (err) {
+    return NextResponse.json(
+      { error: "Failed to clear orders", details: err.message },
       { status: 500 }
     );
   }

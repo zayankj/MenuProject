@@ -1,14 +1,8 @@
 {
-  "timestamp": "2025-07-19T07:09:13.562Z",
+  "timestamp": "2025-07-19T10:03:28.076Z",
   "table": "1",
-  "total": 260,
+  "total": 270,
   "items": [
-    {
-      "id": "b1",
-      "name": "Veg Patty Burger",
-      "price": 80,
-      "qty": 1
-    },
     {
       "id": "b2",
       "name": "Broasted Burger",
@@ -19,6 +13,12 @@
       "id": "b3",
       "name": "Broasted Burger with Cheese",
       "price": 100,
+      "qty": 1
+    },
+    {
+      "id": "b4",
+      "name": "Tikka Burger",
+      "price": 90,
       "qty": 1
     }
   ]
