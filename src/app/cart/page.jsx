@@ -2,32 +2,59 @@
 import { useCart } from "@/context/CartContext";
 import Link from "next/link";
 import toast from "react-hot-toast";
+import { useEffect, useState } from "react";
 
 export default function CartPage() {
   const { cart, addItem, removeItem, clearCart } = useCart();
   const total = cart.reduce((sum, i) => sum + i.price * i.qty, 0);
 
-  const handleOrder = () => {
+  const [tableNumber, setTableNumber] = useState("unknown");
+
+  useEffect(() => {
+    const table = new URLSearchParams(window.location.search).get("table");
+    if (table) {
+      localStorage.setItem("tableNumber", table);
+      setTableNumber(table);
+    } else {
+      const stored = localStorage.getItem("tableNumber");
+      if (stored) setTableNumber(stored);
+    }
+  }, []);
+
+  const handleOrder = async () => {
     if (cart.length === 0) {
       toast.error("Your cart is empty.");
       return;
     }
 
-    // Ask for confirmation
     const confirm = window.confirm(
       "Are you sure you want to place this order?"
     );
     if (!confirm) return;
 
-    // Example summary string
-    const orderSummary = cart
-      .map((item) => `${item.name} × ${item.qty}`)
-      .join(", ");
+    try {
+      const res = await fetch("/api/order", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          table: tableNumber,
+          items: cart,
+          total,
+        }),
+      });
 
-    toast.success(`Order placed!\n\nItems: ${orderSummary}\nTotal: ₹${total}`);
+      const data = await res.json();
 
-    // Optional: clear cart after ordering
-    clearCart();
+      if (res.ok) {
+        toast.success(`✅ Order placed successfully!`);
+        clearCart();
+      } else {
+        toast.error(`❌ Failed: ${data.error}`);
+      }
+    } catch (err) {
+      toast.error("❌ Network error");
+      console.error(err);
+    }
   };
 
   return (
@@ -81,7 +108,10 @@ export default function CartPage() {
         </button>
       )}
 
-      <Link href="/" className="text-green-600 underline mt-4 inline-block">
+      <Link
+        href={`/?table=${tableNumber}`}
+        className="text-green-600 underline mt-4 inline-block"
+      >
         ← Back to Menu
       </Link>
     </div>

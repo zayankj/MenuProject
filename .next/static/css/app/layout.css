@@ -232,6 +232,9 @@
   .inline-block {
     display: inline-block;
   }
+  .table {
+    display: table;
+  }
   .w-full {
     width: 100%;
   }

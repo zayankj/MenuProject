@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-07-19T07:10:03.274Z",
+  "table": "2",
+  "total": 220,
+  "items": [
+    {
+      "id": "b1",
+      "name": "Veg Patty Burger",
+      "price": 80,
+      "qty": 1
+    },
+    {
+      "id": "b5",
+      "name": "Strips Burger",
+      "price": 100,
+      "qty": 1
+    },
+    {
+      "id": "r1",
+      "name": "Chicken Roll",
+      "price": 40,
+      "qty": 1
+    }
+  ]
+}
