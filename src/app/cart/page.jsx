@@ -34,15 +34,17 @@ export default function CartPage() {
     );
     if (!confirm) return;
 
+    const currentTable = localStorage.getItem("tableNumber") || tableNumber;
+
     try {
       const res = await fetch("/api/order", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          table: tableNumber,
+          table: currentTable,
           items: cart,
           total,
-          timestamp: new Date().toISOString(), // optional: 🔄 include time
+          timestamp: new Date().toISOString(),
         }),
       });
 
@@ -51,7 +53,7 @@ export default function CartPage() {
       if (res.ok) {
         toast.success(`✅ Order placed successfully!`);
         clearCart();
-        router.push(`/order-confirmation?table=${tableNumber}`); // 🔄 Redirect
+        router.push(`/order-confirmation?table=${currentTable}`);
       } else {
         toast.error(`❌ Failed: ${data.error}`);
       }
