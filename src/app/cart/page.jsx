@@ -3,12 +3,14 @@ import { useCart } from "@/context/CartContext";
 import Link from "next/link";
 import toast from "react-hot-toast";
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation"; // 🔁 added
 
 export default function CartPage() {
   const { cart, addItem, removeItem, clearCart } = useCart();
   const total = cart.reduce((sum, i) => sum + i.price * i.qty, 0);
 
   const [tableNumber, setTableNumber] = useState("unknown");
+  const router = useRouter(); // 🔁 added
 
   useEffect(() => {
     const table = new URLSearchParams(window.location.search).get("table");
@@ -40,6 +42,7 @@ export default function CartPage() {
           table: tableNumber,
           items: cart,
           total,
+          timestamp: new Date().toISOString(), // optional: 🔄 include time
         }),
       });
 
@@ -48,6 +51,7 @@ export default function CartPage() {
       if (res.ok) {
         toast.success(`✅ Order placed successfully!`);
         clearCart();
+        router.push(`/order-confirmation?table=${tableNumber}`); // 🔄 Redirect
       } else {
         toast.error(`❌ Failed: ${data.error}`);
       }
@@ -98,7 +102,6 @@ export default function CartPage() {
 
       <div className="mt-6 text-right font-bold text-xl">Total: ₹{total}</div>
 
-      {/* ✅ Submit Order Button */}
       {cart.length > 0 && (
         <button
           onClick={handleOrder}

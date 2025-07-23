@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 
 export default function OrdersPage() {
   const [orders, setOrders] = useState([]);
@@ -63,9 +64,14 @@ export default function OrdersPage() {
             <p>
               🪑 <strong>Table:</strong> {order.table || "unknown"}
             </p>
-            <p>
-              🕒 <strong>Time:</strong> {order.timestamp}
+            <p className="text-sm">
+              🕒 <strong>Time:</strong>{" "}
+              {new Date(order.timestamp).toLocaleString("en-IN", {
+                dateStyle: "medium",
+                timeStyle: "short",
+              })}
             </p>
+
             <p>
               💵 <strong>Total:</strong> ₹{order.total}
             </p>

@@ -1,1 +1,1210 @@
-[]
+[
+  {
+    "timestamp": "2025-07-20T11:30:17.169Z",
+    "table": "1",
+    "total": 450,
+    "items": [
+      {
+        "id": "b1",
+        "name": "Veg Patty Burger",
+        "price": 80,
+        "qty": 1
+      },
+      {
+        "id": "b2",
+        "name": "Broasted Burger",
+        "price": 80,
+        "qty": 1
+      },
+      {
+        "id": "b3",
+        "name": "Broasted Burger with Cheese",
+        "price": 100,
+        "qty": 1
+      },
+      {
+        "id": "b4",
+        "name": "Tikka Burger",
+        "price": 90,
+        "qty": 1
+      },
+      {
+        "id": "b5",
+        "name": "Strips Burger",
+        "price": 100,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-20T14:31:44.705Z",
+    "table": "unknown",
+    "total": 450,
+    "items": [
+      {
+        "id": "b1",
+        "name": "Veg Patty Burger",
+        "price": 80,
+        "qty": 1
+      },
+      {
+        "id": "b2",
+        "name": "Broasted Burger",
+        "price": 80,
+        "qty": 1
+      },
+      {
+        "id": "b3",
+        "name": "Broasted Burger with Cheese",
+        "price": 100,
+        "qty": 1
+      },
+      {
+        "id": "b4",
+        "name": "Tikka Burger",
+        "price": 90,
+        "qty": 1
+      },
+      {
+        "id": "b5",
+        "name": "Strips Burger",
+        "price": 100,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-20T14:49:45.500Z",
+    "table": "unknown",
+    "total": 410,
+    "items": [
+      {
+        "id": "r1",
+        "name": "Chicken Roll",
+        "price": 40,
+        "qty": 1
+      },
+      {
+        "id": "m5",
+        "name": "Anjeer",
+        "price": 80,
+        "qty": 1
+      },
+      {
+        "id": "m6",
+        "name": "Nutella Oreo",
+        "price": 80,
+        "qty": 1
+      },
+      {
+        "id": "m8",
+        "name": "Vanilla Shake / Irish Chocolate",
+        "price": 90,
+        "qty": 1
+      },
+      {
+        "id": "w7",
+        "name": "Gudbud",
+        "price": 120,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-20T14:59:32.686Z",
+    "table": "2",
+    "total": 105650,
+    "items": [
+      {
+        "id": "b1",
+        "name": "Veg Patty Burger",
+        "price": 80,
+        "qty": 1
+      },
+      {
+        "id": "b2",
+        "name": "Broasted Burger",
+        "price": 80,
+        "qty": 31
+      },
+      {
+        "id": "b3",
+        "name": "Broasted Burger with Cheese",
+        "price": 100,
+        "qty": 1
+      },
+      {
+        "id": "b4",
+        "name": "Tikka Burger",
+        "price": 90,
+        "qty": 67
+      },
+      {
+        "id": "b6",
+        "name": "Double Broasted Burger",
+        "price": 120,
+        "qty": 62
+      },
+      {
+        "id": "b7",
+        "name": "Ground Burger (NEW)",
+        "price": 120,
+        "qty": 39
+      },
+      {
+        "id": "b8",
+        "name": "Double Melt Burger (NEW)",
+        "price": 160,
+        "qty": 12
+      },
+      {
+        "id": "b9",
+        "name": "Nashville Burger (NEW)",
+        "price": 160,
+        "qty": 62
+      },
+      {
+        "id": "b10",
+        "name": "Jumbo Burger",
+        "price": 200,
+        "qty": 85
+      },
+      {
+        "id": "c1",
+        "name": "Nutella Cream",
+        "price": 250,
+        "qty": 9
+      },
+      {
+        "id": "c2",
+        "name": "Kitkat Cream",
+        "price": 250,
+        "qty": 107
+      },
+      {
+        "id": "c3",
+        "name": "Mango Creamsss",
+        "price": 250,
+        "qty": 108
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-20T15:00:48.953Z",
+    "table": "1",
+    "total": 870,
+    "items": [
+      {
+        "id": "b2",
+        "name": "Broasted Burger",
+        "price": 80,
+        "qty": 1
+      },
+      {
+        "id": "b3",
+        "name": "Broasted Burger with Cheese",
+        "price": 100,
+        "qty": 1
+      },
+      {
+        "id": "c2",
+        "name": "Kitkat Cream",
+        "price": 250,
+        "qty": 1
+      },
+      {
+        "id": "c1",
+        "name": "Nutella Cream",
+        "price": 250,
+        "qty": 1
+      },
+      {
+        "id": "p3",
+        "name": "Mixed Sauce Pasta",
+        "price": 190,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-20T15:34:35.740Z",
+    "table": "1",
+    "total": 6020,
+    "items": [
+      {
+        "id": "b1",
+        "name": "Veg Patty Burger",
+        "price": 80,
+        "qty": 4
+      },
+      {
+        "id": "b2",
+        "name": "Broasted Burger",
+        "price": 80,
+        "qty": 4
+      },
+      {
+        "id": "b3",
+        "name": "Broasted Burger with Cheese",
+        "price": 100,
+        "qty": 4
+      },
+      {
+        "id": "b5",
+        "name": "Strips Burger",
+        "price": 100,
+        "qty": 5
+      },
+      {
+        "id": "b6",
+        "name": "Double Broasted Burger",
+        "price": 120,
+        "qty": 4
+      },
+      {
+        "id": "c1",
+        "name": "Nutella Cream",
+        "price": 250,
+        "qty": 6
+      },
+      {
+        "id": "c2",
+        "name": "Kitkat Cream",
+        "price": 250,
+        "qty": 5
+      },
+      {
+        "id": "c3",
+        "name": "Mango Creamsss",
+        "price": 250,
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-20T15:34:55.651Z",
+    "table": "1",
+    "total": 190,
+    "items": [
+      {
+        "id": "b4",
+        "name": "Tikka Burger",
+        "price": 90,
+        "qty": 1
+      },
+      {
+        "id": "b3",
+        "name": "Broasted Burger with Cheese",
+        "price": 100,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-20T15:36:56.475Z",
+    "table": "2",
+    "total": 190,
+    "items": [
+      {
+        "id": "b3",
+        "name": "Broasted Burger with Cheese",
+        "price": 100,
+        "qty": 1
+      },
+      {
+        "id": "b4",
+        "name": "Tikka Burger",
+        "price": 90,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-20T15:37:21.053Z",
+    "table": "1",
+    "total": 190,
+    "items": [
+      {
+        "id": "b3",
+        "name": "Broasted Burger with Cheese",
+        "price": 100,
+        "qty": 1
+      },
+      {
+        "id": "b4",
+        "name": "Tikka Burger",
+        "price": 90,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-20T15:38:01.285Z",
+    "table": "unknown",
+    "total": 750,
+    "items": [
+      {
+        "id": "c2",
+        "name": "Kitkat Cream",
+        "price": 250,
+        "qty": 1
+      },
+      {
+        "id": "c1",
+        "name": "Nutella Cream",
+        "price": 250,
+        "qty": 1
+      },
+      {
+        "id": "c3",
+        "name": "Mango Creamsss",
+        "price": 250,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-20T15:51:10.954Z",
+    "table": "unknown",
+    "total": 450,
+    "items": [
+      {
+        "id": "w8",
+        "name": "Sizzling Brownie",
+        "price": 170,
+        "qty": 1
+      },
+      {
+        "id": "w9",
+        "name": "Special Gudbud",
+        "price": 180,
+        "qty": 1
+      },
+      {
+        "id": "w5",
+        "name": "Naughty Nutty",
+        "price": 100,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-20T15:52:35.801Z",
+    "table": "1",
+    "total": 500,
+    "items": [
+      {
+        "id": "b2",
+        "name": "Broasted Burger",
+        "price": 80,
+        "qty": 1
+      },
+      {
+        "id": "b3",
+        "name": "Broasted Burger with Cheese",
+        "price": 100,
+        "qty": 2
+      },
+      {
+        "id": "b5",
+        "name": "Strips Burger",
+        "price": 100,
+        "qty": 1
+      },
+      {
+        "id": "b6",
+        "name": "Double Broasted Burger",
+        "price": 120,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-20T15:54:17.442Z",
+    "table": "1",
+    "total": 190,
+    "items": [
+      {
+        "id": "b3",
+        "name": "Broasted Burger with Cheese",
+        "price": 100,
+        "qty": 1
+      },
+      {
+        "id": "b4",
+        "name": "Tikka Burger",
+        "price": 90,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-20T15:55:14.532Z",
+    "table": "2",
+    "total": 200,
+    "items": [
+      {
+        "id": "b10",
+        "name": "Jumbo Burger",
+        "price": 200,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-20T15:56:05.770Z",
+    "table": "2",
+    "total": 270,
+    "items": [
+      {
+        "id": "b4",
+        "name": "Tikka Burger",
+        "price": 90,
+        "qty": 1
+      },
+      {
+        "id": "b5",
+        "name": "Strips Burger",
+        "price": 100,
+        "qty": 1
+      },
+      {
+        "id": "b2",
+        "name": "Broasted Burger",
+        "price": 80,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-20T16:07:58.143Z",
+    "table": "1",
+    "total": 100,
+    "items": [
+      {
+        "id": "b5",
+        "name": "Strips Burger",
+        "price": 100,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-20T16:18:51.832Z",
+    "table": "2",
+    "total": 90,
+    "items": [
+      {
+        "id": "b4",
+        "name": "Tikka Burger",
+        "price": 90,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-20T16:26:25.787Z",
+    "table": "2",
+    "total": 100,
+    "items": [
+      {
+        "id": "b5",
+        "name": "Strips Burger",
+        "price": 100,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-20T16:27:57.263Z",
+    "table": "unknown",
+    "total": 160,
+    "items": [
+      {
+        "id": "b1",
+        "name": "Veg Patty Burger",
+        "price": 80,
+        "qty": 1
+      },
+      {
+        "id": "b2",
+        "name": "Broasted Burger",
+        "price": 80,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-20T16:41:49.960Z",
+    "table": "unknown",
+    "total": 80,
+    "items": [
+      {
+        "id": "b1",
+        "name": "Veg Patty Burger",
+        "price": 80,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-20T16:42:29.028Z",
+    "table": "2",
+    "total": 220,
+    "items": [
+      {
+        "id": "b5",
+        "name": "Strips Burger",
+        "price": 100,
+        "qty": 1
+      },
+      {
+        "id": "b6",
+        "name": "Double Broasted Burger",
+        "price": 120,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-20T16:49:41.823Z",
+    "table": "1",
+    "total": 150,
+    "items": [
+      {
+        "id": "r4",
+        "name": "BBQ Chicken Roll",
+        "price": 60,
+        "qty": 1
+      },
+      {
+        "id": "r5",
+        "name": "Nugget Roll",
+        "price": 90,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-20T16:54:13.386Z",
+    "table": "2",
+    "total": 180,
+    "items": [
+      {
+        "id": "r9",
+        "name": "CC Special Roll",
+        "price": 90,
+        "qty": 1
+      },
+      {
+        "id": "r10",
+        "name": "Chicken Wrap",
+        "price": 90,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-20T16:54:47.317Z",
+    "table": "unknown",
+    "total": 200,
+    "items": [
+      {
+        "id": "b1",
+        "name": "Veg Patty Burger",
+        "price": 80,
+        "qty": 1
+      },
+      {
+        "id": "b7",
+        "name": "Ground Burger (NEW)",
+        "price": 120,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-20T16:55:12.814Z",
+    "table": "unknown",
+    "total": 80,
+    "items": [
+      {
+        "id": "b2",
+        "name": "Broasted Burger",
+        "price": 80,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-20T16:55:45.395Z",
+    "table": "1",
+    "total": 120,
+    "items": [
+      {
+        "id": "b6",
+        "name": "Double Broasted Burger",
+        "price": 120,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-20T16:56:54.290Z",
+    "table": "2",
+    "total": 140,
+    "items": [
+      {
+        "id": "w2",
+        "name": "Fruit Ice Cream",
+        "price": 80,
+        "qty": 1
+      },
+      {
+        "id": "w1",
+        "name": "Single Scoop",
+        "price": 60,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-20T16:58:39.838Z",
+    "table": "2",
+    "total": 190,
+    "items": [
+      {
+        "id": "b3",
+        "name": "Broasted Burger with Cheese",
+        "price": 100,
+        "qty": 1
+      },
+      {
+        "id": "b4",
+        "name": "Tikka Burger",
+        "price": 90,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-20T17:01:42.057Z",
+    "table": "2",
+    "total": 160,
+    "items": [
+      {
+        "id": "b1",
+        "name": "Veg Patty Burger",
+        "price": 80,
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-20T17:02:24.409Z",
+    "table": "2",
+    "total": 80,
+    "items": [
+      {
+        "id": "b1",
+        "name": "Veg Patty Burger",
+        "price": 80,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-20T18:14:10.639Z",
+    "table": "1",
+    "total": 90,
+    "items": [
+      {
+        "id": "b4",
+        "name": "Tikka Burger",
+        "price": 90,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-20T18:19:23.082Z",
+    "table": "unknown",
+    "total": 160,
+    "items": [
+      {
+        "id": "b1",
+        "name": "Veg Patty Burger",
+        "price": 80,
+        "qty": 1
+      },
+      {
+        "id": "b2",
+        "name": "Broasted Burger",
+        "price": 80,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-23T07:01:11.024Z",
+    "table": "unknown",
+    "total": 160,
+    "items": [
+      {
+        "id": "b2",
+        "name": "Broasted Burger",
+        "price": 80,
+        "qty": 1
+      },
+      {
+        "id": "b1",
+        "name": "Veg Patty Burger",
+        "price": 80,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-23T07:09:57.114Z",
+    "table": "2",
+    "total": 410,
+    "items": [
+      {
+        "id": "b4",
+        "name": "Tikka Burger",
+        "price": 90,
+        "qty": 1
+      },
+      {
+        "id": "b5",
+        "name": "Strips Burger",
+        "price": 100,
+        "qty": 2
+      },
+      {
+        "id": "b6",
+        "name": "Double Broasted Burger",
+        "price": 120,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-23T07:15:00.547Z",
+    "table": "2",
+    "total": 480,
+    "items": [
+      {
+        "id": "b6",
+        "name": "Double Broasted Burger",
+        "price": 120,
+        "qty": 1
+      },
+      {
+        "id": "b9",
+        "name": "Nashville Burger (NEW)",
+        "price": 160,
+        "qty": 1
+      },
+      {
+        "id": "b10",
+        "name": "Jumbo Burger",
+        "price": 200,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-23T07:18:46.327Z",
+    "table": "1",
+    "total": 400,
+    "items": [
+      {
+        "id": "m12",
+        "name": "Nutella/Kitkat Shake",
+        "price": 140,
+        "qty": 1
+      },
+      {
+        "id": "m11",
+        "name": "Brownie/Belgian Chocolate",
+        "price": 120,
+        "qty": 1
+      },
+      {
+        "id": "w1",
+        "name": "Single Scoop",
+        "price": 60,
+        "qty": 1
+      },
+      {
+        "id": "w2",
+        "name": "Fruit Ice Cream",
+        "price": 80,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-23T07:19:19.575Z",
+    "table": "2",
+    "total": 2980,
+    "items": [
+      {
+        "id": "b1",
+        "name": "Veg Patty Burger",
+        "price": 80,
+        "qty": 4
+      },
+      {
+        "id": "b2",
+        "name": "Broasted Burger",
+        "price": 80,
+        "qty": 7
+      },
+      {
+        "id": "b3",
+        "name": "Broasted Burger with Cheese",
+        "price": 100,
+        "qty": 4
+      },
+      {
+        "id": "b5",
+        "name": "Strips Burger",
+        "price": 100,
+        "qty": 5
+      },
+      {
+        "id": "b6",
+        "name": "Double Broasted Burger",
+        "price": 120,
+        "qty": 5
+      },
+      {
+        "id": "b7",
+        "name": "Ground Burger (NEW)",
+        "price": 120,
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-23T07:23:17.555Z",
+    "table": "1",
+    "total": 220,
+    "items": [
+      {
+        "id": "w1",
+        "name": "Single Scoop",
+        "price": 60,
+        "qty": 1
+      },
+      {
+        "id": "w2",
+        "name": "Fruit Ice Cream",
+        "price": 80,
+        "qty": 1
+      },
+      {
+        "id": "w3",
+        "name": "Mini Gudbud",
+        "price": 80,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-23T08:17:39.888Z",
+    "table": "2",
+    "total": 160,
+    "items": [
+      {
+        "id": "r1",
+        "name": "Chicken Roll",
+        "price": 40,
+        "qty": 1
+      },
+      {
+        "id": "r2",
+        "name": "Chicken Roll W/C",
+        "price": 60,
+        "qty": 1
+      },
+      {
+        "id": "r4",
+        "name": "BBQ Chicken Roll",
+        "price": 60,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-23T08:18:24.037Z",
+    "table": "2",
+    "total": 190,
+    "items": [
+      {
+        "id": "m9",
+        "name": "Chocolate Shake",
+        "price": 90,
+        "qty": 1
+      },
+      {
+        "id": "m10",
+        "name": "Choco Dry Fruits",
+        "price": 100,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-23T08:19:22.752Z",
+    "table": "1",
+    "total": 120,
+    "items": [
+      {
+        "id": "r4",
+        "name": "BBQ Chicken Roll",
+        "price": 60,
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-23T08:20:06.150Z",
+    "table": "1",
+    "total": 380,
+    "items": [
+      {
+        "id": "b9",
+        "name": "Nashville Burger (NEW)",
+        "price": 160,
+        "qty": 1
+      },
+      {
+        "id": "b10",
+        "name": "Jumbo Burger",
+        "price": 200,
+        "qty": 1
+      },
+      {
+        "id": "b11",
+        "name": "Extra Cheese",
+        "price": 20,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-23T08:21:11.320Z",
+    "table": "2",
+    "total": 120,
+    "items": [
+      {
+        "id": "b6",
+        "name": "Double Broasted Burger",
+        "price": 120,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-23T08:22:48.015Z",
+    "table": "2",
+    "total": 1380,
+    "items": [
+      {
+        "id": "c1",
+        "name": "Nutella Cream",
+        "price": 250,
+        "qty": 1
+      },
+      {
+        "id": "c3",
+        "name": "Mango Creamsss",
+        "price": 250,
+        "qty": 2
+      },
+      {
+        "id": "p1",
+        "name": "White Sauce Pasta",
+        "price": 180,
+        "qty": 1
+      },
+      {
+        "id": "w12",
+        "name": "KitKat Waffle (Half)",
+        "price": 180,
+        "qty": 1
+      },
+      {
+        "id": "m15",
+        "name": "Seetaphal (Seasonal)",
+        "price": 90,
+        "qty": 2
+      },
+      {
+        "id": "m16",
+        "name": "Mango (Seasonal)",
+        "price": 90,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-23T08:24:47.222Z",
+    "table": "unknown",
+    "total": 190,
+    "items": [
+      {
+        "id": "b3",
+        "name": "Broasted Burger with Cheese",
+        "price": 100,
+        "qty": 1
+      },
+      {
+        "id": "b4",
+        "name": "Tikka Burger",
+        "price": 90,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-23T08:26:41.323Z",
+    "table": "1",
+    "total": 1020,
+    "items": [
+      {
+        "id": "b5",
+        "name": "Strips Burger",
+        "price": 100,
+        "qty": 2
+      },
+      {
+        "id": "b6",
+        "name": "Double Broasted Burger",
+        "price": 120,
+        "qty": 1
+      },
+      {
+        "id": "b10",
+        "name": "Jumbo Burger",
+        "price": 200,
+        "qty": 1
+      },
+      {
+        "id": "r9",
+        "name": "CC Special Roll",
+        "price": 90,
+        "qty": 1
+      },
+      {
+        "id": "m13",
+        "name": "Nutty Nutella",
+        "price": 140,
+        "qty": 1
+      },
+      {
+        "id": "m15",
+        "name": "Seetaphal (Seasonal)",
+        "price": 90,
+        "qty": 2
+      },
+      {
+        "id": "m16",
+        "name": "Mango (Seasonal)",
+        "price": 90,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-23T08:55:22.842Z",
+    "table": "2",
+    "total": 430,
+    "items": [
+      {
+        "id": "w6",
+        "name": "Brownie with Ice Cream",
+        "price": 140,
+        "qty": 1
+      },
+      {
+        "id": "w7",
+        "name": "Gudbud",
+        "price": 120,
+        "qty": 1
+      },
+      {
+        "id": "w8",
+        "name": "Sizzling Brownie",
+        "price": 170,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-23T08:55:23.763Z",
+    "table": "2",
+    "total": 290,
+    "items": [
+      {
+        "id": "b3",
+        "name": "Broasted Burger with Cheese",
+        "price": 100,
+        "qty": 1
+      },
+      {
+        "id": "b4",
+        "name": "Tikka Burger",
+        "price": 90,
+        "qty": 1
+      },
+      {
+        "id": "b5",
+        "name": "Strips Burger",
+        "price": 100,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-23T08:55:54.488Z",
+    "table": "1",
+    "total": 190,
+    "items": [
+      {
+        "id": "b3",
+        "name": "Broasted Burger with Cheese",
+        "price": 100,
+        "qty": 1
+      },
+      {
+        "id": "b4",
+        "name": "Tikka Burger",
+        "price": 90,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-23T08:56:30.012Z",
+    "table": "1",
+    "total": 60,
+    "items": [
+      {
+        "id": "b11",
+        "name": "Extra Cheese",
+        "price": 20,
+        "qty": 1
+      },
+      {
+        "id": "r1",
+        "name": "Chicken Roll",
+        "price": 40,
+        "qty": 1
+      }
+    ]
+  }
+]
